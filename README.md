@@ -12,6 +12,13 @@ Cam
 ---
 
 * Rails'n'routing
-* Consuming Api's 
+* Consuming Api's
 * JS front-end
 * Workflow (Git, Agile, etc)
+
+
+Sarah
+-----
+ * Rails and routing
+ * Writing an API
+ * Background tasks
