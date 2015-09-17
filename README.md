@@ -2,16 +2,16 @@
 
 # Spot the Station!
 
-This is our github repo for all our Spot the Station stuff, owned and operated by Queen Sarah, Scalleywag Serah, and Cam. Hooray! Words here....
+This is our github repo for all our Spot the Station stuff, owned and operated by Queen Sarah, Scalleywag Sarah, and Cam. Hooray! 
 
-
-Our Learning Objectives
+Our Learning Objectivesx
 =======================
 
 Cam
 ---
 
 * Rails'n'routing
+* Test Driven Development (Rspec & Capybara)
 * Consuming Api's 
 * JS front-end
 * Workflow (Git, Agile, etc)
