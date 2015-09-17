@@ -1,1 +1,3 @@
-# spot-the-station
+# Spot the Station!
+
+This is our github repo for all our Spot the Station stuff. Hooray! Words here....
