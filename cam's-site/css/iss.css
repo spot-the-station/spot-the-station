@@ -1,0 +1,22 @@
+
+html, body { 
+	height: 100%; 
+	margin: 20px; 
+	padding: 0; 
+}
+#text-block {
+	margin-right: 0;
+	max-width: 50%
+}
+#live-stream{ 
+	position: inline-block;
+	float: right;
+	max-width: 50%;
+}
+
+
+#map { 
+	height: 50%;
+	width:100%;
+}
+

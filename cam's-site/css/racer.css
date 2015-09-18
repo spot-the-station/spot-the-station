@@ -1,0 +1,23 @@
+#title {
+	background-color: black;
+	color: white;
+}
+#race_table td {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  padding: 10px;
+   
+}
+
+#race_table td.active {
+  background-color: black;
+}
+
+.active
+{
+	background-color: black;
+}
+
+
+
