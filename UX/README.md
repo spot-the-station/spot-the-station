@@ -1,5 +1,7 @@
 #The Five Elements of User Experience
 
+![alt text](http://jisclamp.mimas.ac.uk/wp-content/uploads/sites/17/2013/11/simpleplanes1.png "Five elements of user experience")
+
 ##1) [Strategy](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/1-Strategy)
 The scope is fundamentally determined by the strategy of the site. This strategy incorporates not only what the people running the site want to get out of it but what the users want to get out of the site as well. In the case of our store example, some of the strategic objectives are pretty obvious: Users want to buy products, and we want to sell them. Other objectives—such as the role that advertis- ing or content produced by our users plays in our business model, for example—might not be so easy to articulate.
 
