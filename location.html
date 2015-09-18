@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Yo fancy address finder</title>
+    <script src = "https://code.jquery.com/jquery-2.1.4.js"></script>
+    <style type="text/css">
+      html, body { height: 100%; margin: 0; padding: 0; }
+      #map { height: 50%;
+        width: 50%;}
+    </style>
+
+    <script type="text/javascript">
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 0, lng: 0},
+          zoom: 1
+        });
+      }
+    </script>
+
+
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOQuu8t97Zv43Hfg8NxcdaGU0cQRLoBYs&callback=initMap">
+    </script>
+
+
+  </head>
+  <body>
+    <h1>Address Finder</h1>
+    <form>
+      <input type=text id="location">
+      <button id="submit">Submit</button>
+    </form>
+    <div id="results"></div>
+    <script>
+      // Assign handlers immediately after making the request,
+      // and remember the jqXHR object for this request
+
+      // function renderAddresses(results){
+      // }
+      function hyperLocate(query){
+
+        var url = "https://maps.googleapis.com/maps/api/geocode/json?address=" + encodeURIComponent(query) + "&sensor=false"
+
+        console.log("FLAG")
+
+        $.ajax({
+        url: url,
+        type: 'GET',
+          success: function (data)
+          {
+            console.log(data)
+
+            $("#results").empty()
+            for (var i = 0; i < data.results.length; i++)  {
+              var longitude = data.results[i].geometry.location.lng;
+              var latitude = data.results[i].geometry.location.lat;
+              var formatted_address = data.results[i].formatted_address
+              console.log("FLAG")
+              var toReturn =  formatted_address + "<br> Latitude: " + latitude + "<br>Longitude: " + longitude;
+              var marker = new google.maps.Marker({
+                position: {lat: latitude, lng: longitude},
+                map: map,
+                title: formatted_address
+              });
+              $("#results").append("<p>"+ toReturn +"</p>")
+            // ALTERNATIVES
+            // $.each(data.results, function (result) {
+            //   $("#results").append("<p>"+ result +"</p><br>")
+            // })
+
+            // data.results.forEach(function (result, index) {
+            //   $("#results").append("<p>"+ result +"</p><br>")
+            // })
+            }
+            // document.write(data.results[0].formatted_address)
+          }
+        })
+      }
+
+      $("#submit").click(function(clicked) {
+        clicked.preventDefault()
+        var location = $('#location').val()
+        hyperLocate(location)
+      })
+
+    </script>
+
+  <head>
+
+  </head>
+    <div id="map"></div>
+
+  </body>
+</html>
