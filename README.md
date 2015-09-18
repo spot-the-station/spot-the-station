@@ -4,6 +4,10 @@
 
 This is our github repo for all our Spot the Station stuff. Hooray!
 
+User Experience [Scope](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
+
+##[User Experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
+
 ##Learning objectives
 
 ###Cam
@@ -30,7 +34,7 @@ This is our github repo for all our Spot the Station stuff. Hooray!
 * Gitflow
 * APIs
 * Markdown language
-* User experience/planning
+* [User Experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
 * Pairing
 * Teamwork
 * Feedback
