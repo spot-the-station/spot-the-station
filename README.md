@@ -4,11 +4,9 @@
 
 This is our github repo for all our Spot the Station stuff. Hooray!
 
-User Experience [Scope](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
+##[User Experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX)
 
-##[User Experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
-
-##Learning objectives
+##Learning Objectives
 
 ###Cam
 * Rails'n'routing
@@ -33,8 +31,8 @@ User Experience [Scope](https://github.com/spot-the-station/spot-the-station/tre
 * Github
 * Gitflow
 * APIs
-* Markdown language
-* [User Experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
+* [Markdown language](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [User experience](https://github.com/spot-the-station/spot-the-station/tree/planning/UX/2-Scope)
 * Pairing
 * Teamwork
 * Feedback
