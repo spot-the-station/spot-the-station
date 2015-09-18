@@ -1,4 +1,6 @@
-#Spot the Station!
+# Spot the Station!
+
+[![Stories in Ready](https://badge.waffle.io/sarah-arrrgh/spot-the-station.png?label=ready&title=Ready)](https://waffle.io/sarah-arrrgh/spot-the-station)
 
 This is our github repo for all our Spot the Station stuff. Hooray!
 
