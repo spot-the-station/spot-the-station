@@ -1,26 +1,37 @@
-[![Stories in Ready](https://badge.waffle.io/spot-the-station/spot-the-station.svg?label=ready&title=Ready)](http://waffle.io/spot-the-station/spot-the-station)
-
 # Spot the Station!
 
-This is our github repo for all our Spot the Station stuff, owned and operated by Queen Sarah, Scalleywag Sarah, and Cam. Hooray!
+[![Stories in Ready](https://badge.waffle.io/sarah-arrrgh/spot-the-station.png?label=ready&title=Ready)](https://waffle.io/sarah-arrrgh/spot-the-station)
 
-Our Learning Objectivesx
-=======================
+This is our github repo for all our Spot the Station stuff. Hooray!
 
-Cam
----
+##Learning objectives
 
+###Cam
 * Rails'n'routing
-* Consuming Api's
-* Test Driven Development (Rspec & Capybara)
-* Consuming Api's
+* Consuming APIs
+* Test Driven Development (RSpec & Capybara)
+* Consuming APIs
 * JS front-end
 * Workflow (Git, Agile, etc)
 
+###Sarah H
+* Rails and routing
+* Writing an API
+* Background tasks
+* TDD
 
-Sarah
------
- * Rails and routing
- * Writing an API
- * Background tasks
- * TDD
+###Sarah R
+* AJAX
+* Javascript
+* JQuery
+* Postman
+* Testing with RSpec
+* Github
+* Gitflow
+* APIs
+* Markdown language
+* User experience/planning
+* Pairing
+* Teamwork
+* Feedback
+
